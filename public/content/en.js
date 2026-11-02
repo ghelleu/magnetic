@@ -1,0 +1,156 @@
+/* Magnetic · PUBLISHED texts, English.
+   Copied from the English web deck published by Guillaume on 2 November 2026
+   (~/Projects/magnetic-deck/content/en.json, deck-presentation.com/mag). Inline <em>/<b> styling removed, words untouched.
+   Every other English text is a translation proposal, in en.propositions.js. */
+window.MAG = window.MAG || {};
+MAG.en = {
+  // couverture.1
+  "signature": "for creativity to impact the world",
+  // reactiver.1
+  "mission": "Creatively reactivating the Esprit de Genève<br>to make creation<br>a tool for rethinking the common.",
+
+  // croisement.1 to evidence.2
+  "origine.1": "Magnetic was born where two things met:<br>what was already there and what came along.",
+  "origine.pole1.nom": "Downtown Studio",
+  "origine.pole1.sous": "what was already there",
+  "origine.pole2.nom": "Together",
+  "origine.pole2.sous": "what came along",
+  "origine.2": "What was already there<br>was Downtown Studio. A place whose values<br>(the individual at the heart of the collective) already<br>carried, without knowing it, what Magnetic would build on.",
+  "origine.3": "What came along<br>was Together, the immersive experience of the Portail<br>des Nations. In making it, our creativity served<br>to convey a strong idea, and in doing so<br>to impact the world for the better.",
+  "origine.4": "From this encounter came something obvious:",
+  "origine.5": "If creativity could convey<br>an idea to the world, could it not<br>become a method for acting upon it?",
+
+  // geneve.1 to objectif-3.2
+  "esprit.1": "For centuries, Geneva, a city of welcome,<br>has given rise to ideas, institutions<br>and forms whose reach<br>goes far beyond its own territory.",
+  "esprit.2": "In 1929, the writer and thinker Robert de Traz<br>gave this singularity a name:",
+  "esprit.3": "“L’Esprit de Genève.”",
+  "esprit.4": "A tradition of the city’s own: giving birth<br>locally to forms able to spill over into the world.",
+  "figures.intro": "Three figures help us grasp its logic.",
+  "figures.calvin.nom": "Calvin",
+  "figures.rousseau.nom": "Rousseau",
+  "figures.dunant.nom": "Dunant",
+  "figures.calvin": "Calvin, for rigour and ethical demand as the foundation of a responsible community.",
+  "figures.rousseau": "Rousseau, for openness to the world through a sensitive thinking of the universal.",
+  "figures.dunant": "Dunant, for the invention of a political compassion, turned into international law.",
+  "figures.fin": "Three different ways of reaching<br>the universal from one place.",
+  "formes.intro": "This dynamic has produced major forms of the common good:",
+  "formes.1": "Multilateralism,<br>which gave rise to the UN",
+  "formes.2": "The International Committee<br>of the Red Cross.",
+  "formes.3": "The Geneva<br>Conventions.",
+  "formes.4": "La Revue de Genève.",
+  "formes.5": "etc.",
+  "formes.fin": "In each case, a local initiative, able to gain<br>a reach far greater than itself.",
+  "objectif.1": "Until now, this spirit has mostly expressed itself<br>in the institutional field.",
+  "objectif.2": "Our aim is to activate it in the field of contemporary creation<br>to extend its transformative power by other means.",
+  "objectif.3": "The project proposes to make Geneva a contemporary laboratory for this transposition.<br>A space where a tradition historically fertile in the political field can be translated<br>into cultural, artistic and experimental practices that work for the common good.",
+  "objectif.4": "What is at stake is testing a capacity for impact through creation.",
+
+  // manifeste.1, principes.*, p1.1 to p6.1
+  "manifeste.titre": "The Manifesto",
+  "p1.titre": "Be rigorous",
+  "p1": "Seek what is right rather than what is striking.<br>Hold form, idea and gesture together.",
+  "p2.titre": "Open the dialogue",
+  "p2": "Bring disciplines, cultures<br>and knowledge together.<br>Creation is built through exchange.",
+  "p3.titre": "Serve the common",
+  "p3": "Design forms that do not close in on themselves.<br>Make creation a space<br>of relation, use or sharing.",
+  "p4.titre": "Build trust",
+  "p4": "Welcome divergence without trying to erase it.<br>Make neutrality a fertile ground<br>for experimentation.",
+  "p5.titre": "Go beyond borders",
+  "p5": "Start from a precise place while aiming wider.<br>Produce forms able to resonate<br>beyond their original context.",
+  "p6.titre": "Share knowledge",
+  "p6": "Document, pass on, make accessible.<br>An idea gains strength when it can circulate.",
+
+  // phases.1 to phases.4
+  "methode.intro": "A project in 3 main phases",
+  "phase1.nom": "Attraction",
+  "phase1.sous": "sharing the vision",
+  "phase2.nom": "Collision",
+  "phase2.sous": "bringing ideas together",
+  "phase3.nom": "Resonance",
+  "phase3.sous": "spreading to the world",
+
+  // agir.1
+  "cloture": "The Esprit de Genève is not only a heritage.<br>It is a singular way of acting on the world,<br>and our ambition is to test<br>its full strength today through creation.",
+
+  "contact.mail": "contact@magnetic.ch",
+
+  // Proper names and sourced facts (identical in both languages)
+  "tour.titre": "La Tour des Possibles",
+  "tour.partenaire.1": "Studio Chaos",
+  "tour.partenaire.2": "Structurals",
+  "tour.partenaire.3": "Werkstadt",
+  "tour.partenaire.4": "Hint3rland",
+  "asso.fait.ide": "CHE-378.383.326",
+  "asso.fait.siege": "Rue des Vieux-Grenadiers 10<br>1205 Genève",
+  "asso.fait.fondateurs": "Downtown Studio and Headfun",
+  "personne.1": "Olivier Pictet",
+  "personne.1.org": "Downtown Studio",
+  "personne.2": "Pascal Tea",
+  "personne.2.org": "Downtown Studio",
+  "personne.3": "Laurent Finck",
+  "personne.3.org": "Headfun, LUMENS 8 SA",
+  "personne.4": "Sébastien Collart",
+  "personne.4.org": "100-legal",
+  "personne.5": "Guillaume Helleu",
+
+  // Interface labels (functional)
+  "ui.nav.origine": "Origin",
+  "ui.nav.esprit": "The Esprit de Genève",
+  "ui.nav.manifeste": "The Manifesto",
+  "ui.nav.methode": "The Method",
+  "ui.nav.projets": "Projects",
+  "ui.nav.asso": "The association",
+  "ui.nav.contact": "Contact",
+  "ui.chap.1": "Origin",
+  "ui.chap.2": "The Esprit de Genève",
+  "ui.chap.3": "The Manifesto",
+  "ui.chap.4": "The Method",
+  "ui.chap.5": "Projects",
+  "ui.chap.6": "The association",
+  "ui.skip": "Skip to content",
+  "ui.menu": "Menu",
+  "ui.fermer": "Close",
+  "ui.langue": "Français",
+  "ui.langue.court": "FR",
+  "ui.defiler": "Scroll",
+  "ui.premier": "First project",
+  "ui.avenir": "Coming next",
+  "ui.lieu": "Place",
+  "ui.dates": "Dates",
+  "ui.cadre": "Setting",
+  "ui.editions": "Planned editions",
+  "ui.partenaires": "Studios involved",
+  "ui.visiter": "tourdespossibles.ch",
+  "ui.art1": "Article 1 · Name",
+  "ui.art3": "Article 3 · Purpose",
+  "ui.statuts": "From the statutes (French original)",
+  "ui.forme": "Legal form",
+  "ui.constitution": "Founded",
+  "ui.ide": "UID number",
+  "ui.rc": "Commercial register",
+  "ui.siege": "Registered office",
+  "ui.fondateurs": "Founders",
+  "ui.personnes": "The people",
+  "ui.soutiens": "Our supporters",
+  "ui.rejoindre": "Join, support",
+  "ui.ecrire": "Write to the association",
+  "ui.mentions": "Legal notice",
+  "ui.confidentialite": "Privacy",
+  "ui.retour": "Back to the site",
+  "ui.polarite": "Click to flip the cursor’s polarity",
+  "ui.relecture": "Review",
+  "ui.version": "Working version",
+  "ui.prop": "Proposal, to be approved",
+  "ui.afournir": "To be supplied",
+  "ui.sortie": "What comes out of it",
+  "ui.noscript": "This site needs JavaScript to display its texts. Contact: contact@magnetic.ch"
+};
+
+/* Image descriptions (web deck, content/en.json, "alt") */
+MAG.en_alt = {
+  "img.downtown": "The space of Downtown Studio",
+  "img.together": "Together, the immersive experience of the Portail des Nations",
+  "img.calvin": "Portrait of John Calvin",
+  "img.rousseau": "Portrait of Jean-Jacques Rousseau",
+  "img.dunant": "Portrait of Henry Dunant"
+};

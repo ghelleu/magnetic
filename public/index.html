@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Magnetic</title>
+<meta name="description" content="Magnetic, association genevoise : réactiver créativement l’Esprit de Genève pour faire de la création un outil pour repenser le commun.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#ecebe4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0b0e" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Magnetic">
+<meta property="og:title" content="Magnetic">
+<meta property="og:description" content="Réactiver créativement l’Esprit de Genève pour faire de la création un outil pour repenser le commun.">
+<meta property="og:locale" content="fr_CH">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:image" content="https://guillaumehelleu.com/magnetic/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preload" href="assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css?v=8">
+<script>document.documentElement.className='js'</script>
+<script src="assets/js/config.js?v=8"></script>
+<script src="content/fr.js?v=8"></script>
+<script src="content/fr.propositions.js?v=8"></script>
+<script src="content/en.js?v=8"></script>
+<script src="content/en.propositions.js?v=8"></script>
+<script src="assets/js/logo.js?v=8"></script>
+<script src="assets/js/content.js?v=8" defer></script>
+<script src="assets/js/field.js?v=8" defer></script>
+<script src="assets/js/site.js?v=8" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu" data-k="ui.skip"></a>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="bar-logo" href="#ouverture" aria-label="Magnetic"><span class="logo-svg" data-logo></span></a>
+  <nav class="bar-nav" aria-label="Sections">
+    <a href="#origine" data-k="ui.nav.origine"></a>
+    <a href="#esprit" data-k="ui.nav.esprit"></a>
+    <a href="#manifeste" data-k="ui.nav.manifeste"></a>
+    <a href="#methode" data-k="ui.nav.methode"></a>
+    <a href="#projets" data-k="ui.nav.projets"></a>
+    <a href="#association" data-k="ui.nav.asso"></a>
+  </nav>
+  <div class="bar-tools">
+    <button class="review-toggle" type="button" hidden aria-pressed="false"><i></i><span data-k="ui.relecture"></span></button>
+    <a class="lang" data-lang-link hreflang="en" lang="en"><span data-k="ui.langue.court"></span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span data-k="ui.menu"></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu">
+    <a href="#origine"><small>01</small><span data-k="ui.nav.origine"></span></a>
+    <a href="#esprit"><small>02</small><span data-k="ui.nav.esprit"></span></a>
+    <a href="#manifeste"><small>03</small><span data-k="ui.nav.manifeste"></span></a>
+    <a href="#methode"><small>04</small><span data-k="ui.nav.methode"></span></a>
+    <a href="#projets"><small>05</small><span data-k="ui.nav.projets"></span></a>
+    <a href="#association"><small>06</small><span data-k="ui.nav.asso"></span></a>
+    <a href="#contact"><small>→</small><span data-k="ui.nav.contact"></span></a>
+  </nav>
+</div>
+
+<noscript><p class="noscript">Ce site a besoin de JavaScript pour afficher ses textes. Contact : <a href="mailto:contact@magnetic.ch">contact@magnetic.ch</a></p></noscript>
+
+<main id="contenu">
+
+<!-- ================================================================ OUVERTURE -->
+<section id="ouverture" class="hero" data-scene="dipole" data-level="1">
+  <i class="anchor" style="left:9%;top:50%" data-pole data-q="1.3" data-drift="1"></i><i class="anchor" style="left:91%;top:50%" data-pole data-q="-1.3" data-drift="2"></i>
+  <h1 class="hero-logo"><span class="sr" lang="fr">Magnetic</span><span class="logo-svg big" data-logo data-assemble></span></h1>
+  <p class="hero-sig serif-i" data-k="signature"></p>
+  <div class="hero-foot">
+    <p class="hero-role" data-k="role" data-need="la phrase qui dit ce que fait Magnetic"></p>
+    <div class="hero-aside">
+      <p class="hero-hint" data-k="ui.polarite"></p>
+      <a class="hero-scroll" href="#origine"><span data-k="ui.defiler"></span><i></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ 01 ORIGINE -->
+<section id="origine" class="chapter" data-scene="croisement" data-level="1">
+  <header class="chap-head">
+    <p class="chap-num">01</p>
+    <h2 class="chap-title" data-k="ui.chap.1"></h2>
+  </header>
+  <p class="statement" data-k="origine.1"></p>
+  <div class="poles">
+    <p class="pole n"><i class="dot" data-pole data-q="1.2"></i><b data-k="origine.pole1.nom"></b><span class="serif-i" data-k="origine.pole1.sous"></span></p>
+    <p class="pole s"><i class="dot" data-pole data-q="-1.2"></i><b data-k="origine.pole2.nom"></b><span class="serif-i" data-k="origine.pole2.sous"></span></p>
+  </div>
+</section>
+
+<section class="reading" data-scene="croisement-calme" data-level="0.4">
+  <figure class="duo">
+    <div class="duo-img"><img src="assets/img/downtown.jpg" width="966" height="852" loading="lazy" data-alt="img.downtown" alt=""></div>
+    <p class="lead" data-k="origine.2"></p>
+  </figure>
+  <figure class="duo reverse">
+    <div class="duo-img"><img src="assets/img/together.jpg" width="1500" height="1323" loading="lazy" data-alt="img.together" alt=""></div>
+    <p class="lead" data-k="origine.3"></p>
+  </figure>
+</section>
+
+<section class="moment" data-scene="evidence" data-level="0.9">
+  <i class="anchor" style="left:50%;top:8%" data-pole data-q="1"></i><i class="anchor" style="left:50%;top:92%" data-pole data-q="-1"></i>
+  <p class="kicker serif-i" data-k="origine.4"></p>
+  <p class="statement xl" data-k="origine.5"></p>
+</section>
+
+<section class="reading narrow" data-scene="croisement-calme" data-level="0.35">
+  <p class="body" data-k="origine.lancement" data-need="la suite du récit de l’origine"></p>
+</section>
+
+<!-- ================================================================ 02 ESPRIT DE GENÈVE -->
+<section id="esprit" class="chapter" data-scene="geneve" data-level="1">
+  <i class="anchor" style="left:74%;top:46%" data-pole data-q="1.8" data-drift="3"></i>
+  <header class="chap-head">
+    <p class="chap-num">02</p>
+    <h2 class="chap-title" data-k="ui.chap.2"></h2>
+  </header>
+  <p class="statement" data-k="esprit.1"></p>
+</section>
+
+<section class="reading" data-scene="geneve-calme" data-level="0.4">
+  <figure class="duo traz">
+    <div class="duo-img book"><img src="assets/img/traz.jpg" width="445" height="703" loading="lazy" data-alt="img.traz" alt=""></div>
+    <div>
+      <p class="lead" data-k="esprit.2"></p>
+      <p class="quote" data-k="esprit.3"></p>
+      <p class="lead" data-k="esprit.4"></p>
+    </div>
+  </figure>
+</section>
+
+<section class="reading figures-wrap" data-scene="trois" data-level="0.55">
+  <p class="kicker serif-i center" data-k="figures.intro"></p>
+  <ol class="figures">
+    <li><div class="portrait"><i class="anchor" style="left:50%;top:40%" data-pole data-q="0.9"></i><img src="assets/img/calvin.jpg" width="400" height="1100" loading="lazy" data-alt="img.calvin" alt=""></div><h3 data-k="figures.calvin.nom"></h3><p data-k="figures.calvin"></p></li>
+    <li><div class="portrait"><i class="anchor" style="left:50%;top:40%" data-pole data-q="-0.9"></i><img src="assets/img/rousseau.jpg" width="400" height="1100" loading="lazy" data-alt="img.rousseau" alt=""></div><h3 data-k="figures.rousseau.nom"></h3><p data-k="figures.rousseau"></p></li>
+    <li><div class="portrait"><i class="anchor" style="left:50%;top:40%" data-pole data-q="0.9"></i><img src="assets/img/dunant.jpg" width="253" height="693" loading="lazy" data-alt="img.dunant" alt=""></div><h3 data-k="figures.dunant.nom"></h3><p data-k="figures.dunant"></p></li>
+  </ol>
+  <p class="statement s center" data-k="figures.fin"></p>
+</section>
+
+<section class="reading" data-scene="formes" data-level="0.4">
+  <p class="kicker serif-i" data-k="formes.intro"></p>
+  <ul class="formes">
+    <li class="forme-text"><span class="idx" data-pole data-q="0.5">i</span><p data-k="formes.1"></p></li>
+    <li><span class="idx" data-pole data-q="-0.5">ii</span><div class="forme-img"><img src="assets/img/croix-rouge.jpg" width="1400" height="604" loading="lazy" data-alt="img.croixrouge" alt=""></div><p data-k="formes.2"></p></li>
+    <li><span class="idx" data-pole data-q="0.5">iii</span><div class="forme-img"><img src="assets/img/conventions.jpg" width="1091" height="470" loading="lazy" data-alt="img.conventions" alt=""></div><p data-k="formes.3"></p></li>
+    <li><span class="idx" data-pole data-q="-0.5">iv</span><div class="forme-img"><img src="assets/img/revue.jpg" width="458" height="198" loading="lazy" data-alt="img.revue" alt=""></div><p data-k="formes.4"></p></li>
+    <li class="forme-etc"><p data-k="formes.5"></p></li>
+  </ul>
+  <p class="lead" data-k="formes.fin"></p>
+</section>
+
+<section class="reading narrow objectif" data-scene="transposition" data-level="0.5">
+  <p class="lead" data-k="objectif.1"></p>
+  <p class="lead strong" data-k="objectif.2"></p>
+  <p class="body" data-k="objectif.3"></p>
+  <p class="body" data-k="objectif.4"></p>
+</section>
+
+<section id="mission" class="moment mission" data-scene="mission" data-level="1">
+  <i class="anchor" style="left:12%;top:18%" data-pole data-q="1"></i><i class="anchor" style="left:88%;top:18%" data-pole data-q="-1"></i><i class="anchor" style="left:12%;top:82%" data-pole data-q="-1"></i><i class="anchor" style="left:88%;top:82%" data-pole data-q="1"></i>
+  <p class="statement xl" data-k="mission"></p>
+</section>
+
+<!-- ================================================================ 03 MANIFESTE -->
+<section id="manifeste" class="chapter" data-scene="anneau" data-level="1">
+  <header class="chap-head">
+    <p class="chap-num">03</p>
+    <h2 class="chap-title" data-k="ui.chap.3"></h2>
+  </header>
+  <ol class="principes" data-principes>
+    <li data-i="0"><span class="n" data-pole data-q="1">01</span><h3 data-k="p1.titre"></h3><p data-k="p1"></p></li>
+    <li data-i="1"><span class="n" data-pole data-q="-1">02</span><h3 data-k="p2.titre"></h3><p data-k="p2"></p></li>
+    <li data-i="2"><span class="n" data-pole data-q="1">03</span><h3 data-k="p3.titre"></h3><p data-k="p3"></p></li>
+    <li data-i="3"><span class="n" data-pole data-q="-1">04</span><h3 data-k="p4.titre"></h3><p data-k="p4"></p></li>
+    <li data-i="4"><span class="n" data-pole data-q="1">05</span><h3 data-k="p5.titre"></h3><p data-k="p5"></p></li>
+    <li data-i="5"><span class="n" data-pole data-q="-1">06</span><h3 data-k="p6.titre"></h3><p data-k="p6"></p></li>
+  </ol>
+</section>
+
+<!-- ================================================================ 04 MÉTHODE -->
+<section id="methode" class="chapter methode" data-scene="methode" data-level="1">
+  <header class="chap-head">
+    <p class="chap-num">04</p>
+    <h2 class="chap-title" data-k="ui.chap.4"></h2>
+  </header>
+  <p class="statement s" data-k="methode.intro"></p>
+  <p class="body narrow-in" data-k="methode.chapeau" data-need="une phrase d’introduction à la méthode"></p>
+  <ol class="phases">
+    <li class="phase" data-phase="0">
+      <p class="phase-num" data-pole data-q="1.1">I</p>
+      <h3 data-k="phase1.nom"></h3>
+      <p class="serif-i phase-sous" data-k="phase1.sous"></p>
+      <p class="body" data-k="phase1.texte" data-need="la description de la phase d’attraction"></p>
+      <p class="phase-out"><small data-k="ui.sortie"></small><span data-k="phase1.sortie" data-need="ce qui sort de la phase"></span></p>
+    </li>
+    <li class="phase" data-phase="1">
+      <p class="phase-num"><span data-pole data-q="-1.1">I</span><span data-pole data-q="1.1">I</span></p>
+      <h3 data-k="phase2.nom"></h3>
+      <p class="serif-i phase-sous" data-k="phase2.sous"></p>
+      <p class="body" data-k="phase2.texte" data-need="la description de la phase de collision"></p>
+      <p class="phase-out"><small data-k="ui.sortie"></small><span data-k="phase2.sortie" data-need="ce qui sort de la phase"></span></p>
+    </li>
+    <li class="phase" data-phase="2">
+      <p class="phase-num" data-pole data-q="-1.2" data-pulse="1">III</p>
+      <h3 data-k="phase3.nom"></h3>
+      <p class="serif-i phase-sous" data-k="phase3.sous"></p>
+      <p class="body" data-k="phase3.texte" data-need="la description de la phase de résonance"></p>
+      <p class="phase-out"><small data-k="ui.sortie"></small><span data-k="phase3.sortie" data-need="ce qui sort de la phase"></span></p>
+    </li>
+  </ol>
+</section>
+
+<!-- ================================================================ 05 PROJETS -->
+<section id="projets" class="chapter" data-scene="tour" data-level="1">
+  <header class="chap-head">
+    <p class="chap-num">05</p>
+    <h2 class="chap-title" data-k="ui.chap.5"></h2>
+  </header>
+  <article class="tour">
+    <p class="label" data-k="ui.premier"></p>
+    <h3 class="tour-title" data-k="tour.titre"></h3><i class="anchor tour-anchor" data-pole data-q="1.4" data-pulse="1"></i>
+    <p class="tour-chapeau serif-i" data-k="tour.chapeau"></p>
+    <dl class="facts">
+      <div><dt data-k="ui.lieu"></dt><dd data-k="tour.fait.lieu"></dd></div>
+      <div><dt data-k="ui.dates"></dt><dd data-k="tour.fait.dates"></dd></div>
+      <div><dt data-k="ui.cadre"></dt><dd data-k="tour.fait.cadre"></dd></div>
+      <div><dt data-k="ui.editions"></dt><dd data-k="tour.fait.editions"></dd></div>
+    </dl>
+    <div class="tour-text">
+      <p class="lead" data-k="tour.desc.1"></p>
+      <p class="body" data-k="tour.desc.2"></p>
+      <p class="body" data-k="tour.desc.3"></p>
+      <p class="body" data-k="tour.desc.4"></p>
+      <p class="body role" data-k="tour.role" data-need="le rôle de Magnetic dans le projet"></p>
+    </div>
+    <div class="tour-side">
+      <p class="label" data-k="ui.partenaires"></p>
+      <ul class="partners">
+        <li><a href="https://studiochaos.ch/" rel="noopener" target="_blank"><b data-k="tour.partenaire.1"></b><span data-k="tour.partenaire.1.role"></span></a></li>
+        <li><a href="https://www.structurals.ch/" rel="noopener" target="_blank"><b data-k="tour.partenaire.2"></b><span data-k="tour.partenaire.2.role"></span></a></li>
+        <li><span class="nolink"><b data-k="tour.partenaire.3"></b><span data-k="tour.partenaire.3.role"></span></span></li>
+        <li><a href="https://hint3rland.com/" rel="noopener" target="_blank"><b data-k="tour.partenaire.4"></b><span data-k="tour.partenaire.4.role"></span></a></li>
+      </ul>
+      <a class="cta" href="https://tourdespossibles.ch/" rel="noopener" target="_blank"><span data-k="ui.visiter"></span><i aria-hidden="true">↗</i></a>
+    </div>
+  </article>
+
+  <div class="avenir">
+    <p class="label" data-k="ui.avenir"></p>
+    <p class="body" data-k="avenir.intro"></p>
+    <ul class="avenir-list">
+      <li><h4 data-k="avenir.1.nom"></h4><p class="meta" data-k="avenir.1.cadre"></p><p data-k="avenir.1.desc" data-need="description du projet AI for Good, rôle de Magnetic"></p></li>
+      <li><h4 data-k="avenir.2.nom"></h4><p class="meta" data-k="avenir.2.cadre" data-need="cadre et date"></p><p data-k="avenir.2.desc" data-need="description de La Tour en Commun"></p></li>
+      <li><h4 data-k="avenir.3.nom"></h4><p class="meta" data-k="avenir.3.cadre" data-need="cadre et date"></p><p data-k="avenir.3.desc" data-need="description du projet avec le GIFF"></p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="moment" data-scene="cloture" data-level="0.9">
+  <i class="anchor" style="left:6%;top:50%" data-pole data-q="-1"></i><i class="anchor" style="left:94%;top:50%" data-pole data-q="1"></i>
+  <p class="statement" data-k="cloture"></p>
+</section>
+
+<!-- ================================================================ 06 ASSOCIATION -->
+<section id="association" class="chapter asso" data-scene="calme" data-level="0.3">
+  <header class="chap-head">
+    <p class="chap-num">06</p>
+    <h2 class="chap-title" data-k="ui.chap.6"></h2>
+  </header>
+  <p class="lead narrow-in" data-k="asso.bio"></p>
+
+  <div class="asso-grid">
+    <dl class="facts col">
+      <div><dt data-k="ui.forme"></dt><dd data-k="asso.fait.forme"></dd></div>
+      <div><dt data-k="ui.constitution"></dt><dd data-k="asso.fait.constitution"></dd></div>
+      <div><dt data-k="ui.ide"></dt><dd data-k="asso.fait.ide"></dd></div>
+      <div><dt data-k="ui.rc"></dt><dd data-k="asso.fait.rc"></dd></div>
+      <div><dt data-k="ui.siege"></dt><dd data-k="asso.fait.siege"></dd></div>
+      <div><dt data-k="ui.fondateurs"></dt><dd data-k="asso.fait.fondateurs"></dd></div>
+    </dl>
+
+    <div class="people">
+      <p class="label" data-k="ui.personnes"></p>
+      <ul>
+        <li><b data-k="personne.1"></b><span data-k="personne.1.org"></span><em data-k="personne.1.role" data-need="fonction"></em></li>
+        <li><b data-k="personne.2"></b><span data-k="personne.2.org"></span><em data-k="personne.2.role" data-need="fonction"></em></li>
+        <li><b data-k="personne.3"></b><span data-k="personne.3.org"></span><em data-k="personne.3.role" data-need="fonction"></em></li>
+        <li><b data-k="personne.4"></b><span data-k="personne.4.org"></span><em data-k="personne.4.role" data-need="fonction, entrée au comité à confirmer"></em></li>
+        <li><b data-k="personne.5"></b><span data-k="personne.5.org"></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <details class="statuts">
+    <summary><span class="label" data-k="ui.statuts"></span><i aria-hidden="true"></i></summary>
+    <div class="statuts-body" lang="fr">
+      <h4 data-k="ui.art1"></h4>
+      <p data-k="asso.art1" data-fixed="fr"></p>
+      <h4 data-k="ui.art3"></h4>
+      <p data-k="asso.art3.1" data-fixed="fr"></p>
+      <p data-k="asso.art3.2" data-fixed="fr"></p>
+      <p data-k="asso.art3.3" data-fixed="fr"></p>
+      <p data-k="asso.art3.4" data-fixed="fr"></p>
+      <p data-k="asso.art3.5" data-fixed="fr"></p>
+      <p data-k="asso.art3.6" data-fixed="fr"></p>
+    </div>
+  </details>
+
+  <div class="asso-grid">
+    <div>
+      <p class="label" data-k="ui.soutiens"></p>
+      <p class="body" data-k="soutiens.liste" data-need="la liste des soutiens à publier, avec l’accord de chacun"></p>
+    </div>
+    <div>
+      <p class="label" data-k="ui.rejoindre"></p>
+      <p class="body" data-k="rejoindre.1"></p>
+      <p class="body" data-k="rejoindre.2"></p>
+      <p class="body" data-k="soutenir.modalites" data-need="les modalités d’un soutien financier (compte bancaire, reconnaissance d’utilité publique)"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================ CONTACT -->
+<section id="contact" class="contact" data-scene="dipole-fin" data-level="1">
+  <i class="anchor" style="left:10%;top:50%" data-pole data-q="1.3"></i><i class="anchor" style="left:90%;top:50%" data-pole data-q="-1.3"></i>
+  <p class="label" data-k="ui.ecrire"></p>
+  <a class="mail" href="mailto:contact@magnetic.ch" data-k="contact.mail"></a>
+  <p class="addr" data-k="asso.fait.siege"></p>
+</section>
+</main>
+
+<footer class="foot">
+  <span class="logo-svg small" data-logo></span>
+  <p class="serif-i" data-k="signature"></p>
+  <nav aria-label="Pied de page">
+    <a data-page="mentions-legales/" data-k="ui.mentions"></a>
+    <a data-page="confidentialite/" data-k="ui.confidentialite"></a>
+    <a href="https://tourdespossibles.ch/" rel="noopener">tourdespossibles.ch</a>
+  </nav>
+  <p class="copy">© 2026 Magnetic</p>
+</footer>
+</body>
+</html>
