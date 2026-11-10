@@ -97,7 +97,10 @@ for (const [file, title] of [["fr.propositions.js", "Français"], ["en.propositi
 
 /* Emplacements à fournir déclarés dans les pages */
 const todo = [];
-for (const page of ["index.html", "mentions-legales/index.html", "confidentialite/index.html"]) {
+const pages = [];
+const walkHtml = (d) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const f = path.join(d, e.name); if (e.isDirectory()) walkHtml(f); else if (e.name.endsWith(".html")) pages.push(path.relative(path.join(root, "public"), f)); } };
+walkHtml(path.join(root, "public"));
+for (const page of pages) {
   const html = fs.readFileSync(path.join(root, "public", page), "utf8");
   for (const m of html.matchAll(/data-k="([^"]+)"[^>]*?data-need="([^"]+)"/g)) {
     for (const l of ["fr", "en"]) if (!(m[1] in (MAG[l] || {})) && !(m[1] in (MAG[l + "_prop"] || {}))) todo.push(`${l}  ${m[1]} : ${m[2]}`);

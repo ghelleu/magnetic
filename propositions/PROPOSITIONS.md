@@ -6,39 +6,139 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 ## Français
 
-> Ce que fait Magnetic Source : réponse de Guillaume du 2 novembre 2026 (« on accompagne bien des initiatives portées par d'autres ») ; dossier de financement v6, § 1 et § 3 (« elle agit sur des initiatives existantes, portées par d'autres »).
+> Accueil
 
-- **role** : Magnetic accompagne des initiatives portées par d’autres, quand elles cherchent à agir au-delà de leur public habituel. L’association travaille avec leurs porteurs sur la forme du projet, puis en transmet la méthode pour qu’elle puisse être reprise ailleurs.
+- **accueil.intro** : Depuis des siècles, des idées nées à Genève partent changer le monde. On a donné un nom à cette force : l’Esprit de Genève. Magnetic est né pour la mettre au service de la création.
 
-> Origine : la suite du récit Texte VALIDÉ du deck de septembre 2026 (p.17), retiré du deck web par Guillaume. Réintroduit ici à la suite de sa réponse « on est transparent sur tout » : à confirmer avant publication.
+- **tour.bandeau.appel** : Une tour vous appelle. Décrochez, et formulez un vœu.
 
-- **origine.lancement** : Cette idée a été présentée à Laurent Finck, de Lumens 8, qui a tout de suite voulu rejoindre l'initiative, en mettant à disposition ses ressources créatives pour les projets à venir. Magnetic était lancé. Un mois plus tard, François Moncarey, du Geneva Lux, se passionne à son tour et nous offre le premier projet de l'association : la Tour des Possibles.
+> L'Esprit de Genève : titres des moments
 
-> La méthode : description des phases Source : dossier de financement v6, § 4.2 « Les trois phases de conduite d'un projet » (colonnes « ce qui s'y fait » et « ce qui en sort »), resserré pour le site, sans aucun élément financier.
+- **moment.1** : Une ville qui déborde
 
-- **methode.chapeau** : Chaque projet accompagné se conduit avec son porteur, d’une phase à l’autre.
+- **moment.2** : Trois figures
 
-- **phase1.texte** : Repérer les initiatives qui s’intéressent à la démarche, puis travailler avec leurs porteurs sur ce que le projet cherche à produire au-delà de sa forme et de son public immédiat.
+- **moment.3** : Ce que l’esprit a donné au monde
 
-- **phase1.sortie** : Une note d’intention, la question que pose le projet, son périmètre, ses publics et ses partenaires.
+- **moment.4** : La part cachée
 
-- **phase2.texte** : Réunir autour du projet les disciplines et les acteurs identifiés, puis appliquer le manifeste : concevoir et tester le dispositif, écrire les protocoles, fixer les conditions de consentement du public et préparer la documentation.
+- **moment.5** : Le fil
 
-- **phase2.sortie** : Un dispositif testé et les protocoles qui l’accompagnent.
+- **moment.6** : La révélation
 
-- **phase3.texte** : Traiter et déposer ce que le projet a recueilli, publier ses protocoles et sa documentation, en présenter les résultats en public et les restituer aux personnes qui y ont contribué.
+> Encart des trois figures. Sources : DHS « Rousseau » (19 juin 1762) ; départ de Dunant à confirmer (DHS « Dunant »).
 
-- **phase3.sortie** : Un bilan qui dit ce qui fonctionne et ce qui changerait pour une reprise ailleurs.
+- **figures.encart** : Leur ville ne les a pas toujours compris. En 1762, Genève fait brûler les livres de Rousseau devant l’Hôtel de Ville. Dunant, ruiné, quitte le comité qu’il avait fait naître. L’Esprit de Genève a souvent avancé plus vite que la ville elle-même, et il a fallu du temps pour qu’elle le reconnaisse.
 
-- **ui.sortie** : Ce qui en sort
+> La part cachée
 
-> Premier projet : le rôle de l’association Source : réponse de Guillaume du 2 novembre 2026 (« le contrat est bien Magnetic mais pour la gestion globale les acteurs sont beaucoup de personnes à la fois ») ; contrat signé le 28 septembre 2026 (éditions 2027 à 2029).
+- **cachee.intro** : On raconte l’Esprit de Genève par ses traités et ses institutions. Il a pourtant une autre histoire, plus discrète, qui s’écrit dans la création. Des chants, des livres, des images et des gestes sont nés ici, et ils ont fait le tour du monde sans que personne ne les relie.
 
-- **tour.role** : Le contrat qui lie La Tour des Possibles à la Ville de Genève, pour les éditions 2027 à 2029, est signé par Magnetic. La conduite de l’œuvre est partagée entre de nombreuses personnes, dont les équipes des studios réunis pour l’occasion.
+> Sources : Cambridge University Library, exposition « Exodus » ; Glasgow, Special Collections.
 
-> Projets à venir Source : 02, section 8.6 (trois pistes), et réponse de Guillaume du 2 novembre 2026 (« tu mets »). Seuls les noms sont sourcés ; chaque description reste à fournir.
+- **cachee.1.date** : 1560
 
-- **avenir.intro** : D’autres projets sont en préparation avec l’association.
+- **cachee.1.titre** : Une Bible pour l’Angleterre
+
+- **cachee.1.texte** : Fuyant les persécutions du règne de Marie Tudor, des protestants anglais trouvent refuge à Genève. Ils y traduisent la Bible dans leur langue et l’impriment en 1560, avec des notes dans les marges pour aider chacun à la lire. Pendant des décennies, cette Bible de Genève sera la plus influente chez les protestants anglais. On ne l’imprimera en Angleterre qu’en 1575.
+
+- **cachee.1.source** : Cambridge University Library ; University of Glasgow
+
+> Sources : BnF ; étude savante sur la diffusion du Psautier (27 400 exemplaires au 27 janvier 1562).
+
+- **cachee.2.date** : 1562
+
+- **cachee.2.titre** : Un chant pour tous
+
+- **cachee.2.texte** : En 1562, Genève publie les cent cinquante psaumes mis en vers français par Clément Marot et Théodore de Bèze, sur des mélodies écrites pour être chantées par toute une assemblée, à l’unisson. Au début de l’année, plus de vingt-sept mille exemplaires sont déjà imprimés. Le Psautier de Genève part chanter dans toute l’Europe protestante, et certaines de ses mélodies s’entendent encore aujourd’hui.
+
+- **cachee.2.source** : Bibliothèque nationale de France ; études sur la diffusion du Psautier
+
+> Sources : catalogues d'éditions originales ; Université de Liège ; Universalis.
+
+- **cachee.3.date** : 1833
+
+- **cachee.3.titre** : Des histoires en images
+
+- **cachee.3.texte** : Rodolphe Töpffer dirige à Genève un pensionnat de jeunes gens. Pour les amuser, il dessine des histoires en suites d’images légendées. En 1833, il en publie un premier album, l’Histoire de M. Jabot. En 1845, il en écrit la théorie. Beaucoup voient dans ces albums l’une des premières formes de la bande dessinée.
+
+- **cachee.3.source** : Encyclopædia Universalis ; Université de Liège
+
+> Sources : Deutsche Biographie ; Ville de Genève ; DHS « Appia ».
+
+- **cachee.4.date** : 1915
+
+- **cachee.4.titre** : Le corps qui écoute
+
+- **cachee.4.texte** : Professeur au Conservatoire de Genève, Émile Jaques-Dalcroze invente une méthode pour apprendre la musique par le mouvement : la rythmique. Avec le scénographe genevois Adolphe Appia, il en fait à Hellerau, près de Dresde, un laboratoire où se réinvente la scène moderne. La guerre le ramène à Genève, où il fonde son institut en 1915. Sa méthode est aujourd’hui enseignée dans une quarantaine d’établissements à travers le monde.
+
+- **cachee.4.source** : Deutsche Biographie ; Dictionnaire historique de la Suisse ; Ville de Genève
+
+> Sources : notices ; Godel 1957.
+
+- **cachee.5.date** : 1916
+
+- **cachee.5.titre** : Un livre écrit par des élèves
+
+- **cachee.5.texte** : Ferdinand de Saussure enseigne la linguistique à Genève et meurt en 1913 sans avoir publié son cours. Deux de ses anciens élèves, Charles Bally et Albert Sechehaye, rassemblent les notes des étudiants et publient en 1916 le Cours de linguistique générale. Ce livre que son auteur n’a jamais écrit devient le texte fondateur de la linguistique structurale.
+
+- **cachee.5.source** : Robert Godel, Les sources manuscrites du Cours, 1957
+
+> Source : CERN.
+
+- **cachee.6.date** : 1993
+
+- **cachee.6.titre** : Un réseau offert au monde
+
+- **cachee.6.texte** : En mars 1989, au CERN, aux portes de Genève, Tim Berners-Lee propose un système pour partager l’information entre chercheurs. Le 30 avril 1993, le CERN place le logiciel du World Wide Web dans le domaine public. Chacun peut désormais s’en servir librement.
+
+- **cachee.6.source** : CERN
+
+> Le fil
+
+- **fil.1** : Un chant que toute une assemblée peut apprendre, une Bible que chacun peut lire, une manière de raconter en images, une méthode pour la musique et la scène, un cours transmis par des élèves, un réseau offert à tous : ces formes sont toutes nées ici. Chaque fois, d’autres les ont apprises, puis emportées ailleurs.
+
+- **fil.2** : Depuis des siècles, Genève transmet au monde des formes que d’autres peuvent faire leurs.
+
+> Source : réunion du 21 mai 2026 (transcription, vault) ; note de genèse.
+
+- **histoire.decouverte** : C’est en concevant Together que nous avons rencontré l’Esprit de Genève. En cherchant comment faire comprendre le multilatéralisme à un large public, nous sommes tombés sur l’essai de Robert de Traz et sur ses trois figures. Nous y avons reconnu ce que nous étions en train de faire : partir de Genève pour parler au monde.
+
+> Reprise de la page 17 du deck de septembre 2026, retirée du deck web : à confirmer.
+
+- **histoire.premier** : L’idée a trouvé ses premiers alliés. Laurent Finck, de LUMENS 8, a rejoint l’initiative en mettant ses ressources créatives à disposition des projets à venir. Puis nous avons raconté l’histoire de l’Esprit de Genève à François Moncarey, du festival Geneva Lux. Il portait l’idée d’une tour des vœux. Ensemble, nous en avons fait La Tour des Possibles, le premier projet de l’association, en janvier 2027.
+
+> Le manifeste
+
+- **manifeste.intro** : L’Esprit de Genève se transmet par des gestes. Nous en avons retenu six, que chaque projet de Magnetic s’engage à tenir.
+
+- **p1.precedent** : En 1886, Genève crée un poinçon qui garantit l’origine et la qualité de ses montres.
+
+- **p2.precedent** : À Hellerau puis à Genève, un musicien et un scénographe réinventent ensemble la scène moderne.
+
+- **p3.precedent** : En 1562, un recueil de chants est écrit pour être chanté par toute une assemblée.
+
+- **p4.precedent** : En 1872, à l’Hôtel de Ville de Genève, les États-Unis et le Royaume-Uni règlent leur différend par un arbitrage.
+
+- **p5.precedent** : En 1560, une Bible imprimée à Genève devient la plus influente chez les protestants anglais.
+
+- **p6.precedent** : En 1993, le CERN place le Web dans le domaine public.
+
+> La méthode
+
+- **methode.chapeau** : Magnetic accompagne des initiatives portées par d’autres, quand elles veulent agir au-delà de leur public habituel. Nous travaillons avec leurs porteurs sur la forme du projet, puis nous en transmettons la méthode pour qu’elle puisse être reprise ailleurs.
+
+- **phase1.texte** : Nous repérons les initiatives qui se reconnaissent dans la démarche, puis nous travaillons avec leurs porteurs sur ce que le projet peut produire au-delà de sa forme et de son public immédiat.
+
+- **phase2.texte** : Nous réunissons autour du projet les disciplines et les personnes qui le feront exister, et nous appliquons le manifeste : concevoir et tester le dispositif, puis en écrire les règles et la documentation.
+
+- **phase3.texte** : Nous rendons public ce que le projet a produit et la manière de le refaire, pour que d’autres puissent s’en emparer, ailleurs et plus tard.
+
+> Reprise de la proposition 16 du texte fondateur de la Tour (cadrage confirmé par Guillaume).
+
+- **tour.esprit** : La Tour des Possibles s’inscrit dans la tradition de l’Esprit de Genève. Elle part d’un lieu précis pour viser plus large, et ce qu’elle transporte est une méthode : faire que des vœux individuels se relient à ceux des autres, sans qu’ils cessent d’être individuels. Après Genève, d’autres villes pourront accueillir leur propre tour et verser leurs vœux dans la même constellation.
+
+- **avenir.intro** : D’autres projets se préparent, avec de nouveaux partenaires.
 
 - **avenir.1.nom** : AI for Good
 
@@ -46,25 +146,13 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **avenir.2.nom** : La Tour en Commun
 
-- **avenir.3.nom** : GIFF
+- **avenir.3.nom** : Avec le GIFF
 
-> Rejoindre, soutenir Source : statuts, article 10, d'après la note de gouvernance (demande d'adhésion adressée à la direction, par courrier ou par courriel, admission par l'assemblée générale).
+> Nous rejoindre
 
-- **rejoindre.1** : Magnetic est ouverte aux personnes et aux structures qui se reconnaissent dans sa démarche. Une demande d’adhésion s’adresse à la direction de l’association, par courrier ou par courriel ; l’assemblée générale se prononce ensuite sur l’admission.
+- **rejoindre.appel** : L’Esprit de Genève a toujours eu besoin de personnes qui le portent. Si vous menez un projet qui veut agir au-delà de son public, si vous souhaitez soutenir l’association ou en devenir membre, écrivez-nous.
 
-- **rejoindre.2** : Un porteur de projet qui souhaite travailler avec l’association peut lui écrire directement.
-
-> Textes alternatifs des images absentes du deck
-
-- **img.traz** : Couverture de L’Esprit de Genève, de Robert de Traz, aux éditions Bernard Grasset
-
-- **img.croixrouge** : Drapeaux du Comité international de la Croix-Rouge à Genève
-
-- **img.conventions** : Signature des Conventions de Genève
-
-- **img.revue** : Couverture de La Revue de Genève, juillet 1927
-
-> Mentions légales Structure arrêtée pour le site de la Tour (éditeur, hébergeur, droits, signalements) ; données de 02, section 4.
+> Mentions légales et confidentialité
 
 - **ml.titre** : Mentions légales
 
@@ -86,11 +174,9 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **ml.signalement** : Une erreur, un droit non respecté ou un contenu à retirer se signale à contact@magnetic.ch. L’association répond dans les meilleurs délais.
 
-> Confidentialité Source : 02, section 9 (nLPD, pas de traceur, pas de mesure d'audience déposant des cookies). Vérifié dans le code.
-
 - **conf.titre** : Confidentialité
 
-- **conf.1** : Ce site ne dépose aucun cookie. Il n’utilise ni mesure d’audience ni traceur publicitaire, et ne charge aucune ressource tierce : les polices et les images sont servies depuis le site lui-même.
+- **conf.1** : Ce site ne dépose aucun cookie. Il n’utilise aucune mesure d’audience ni aucun traceur publicitaire, et ne charge aucune ressource tierce : les polices et les images sont servies depuis le site lui-même.
 
 - **conf.2** : Aucun formulaire ne collecte de données. Un message envoyé à contact@magnetic.ch sert uniquement à y répondre et n’est transmis à personne.
 
@@ -98,33 +184,117 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **conf.4** : Ce site relève de la loi fédérale sur la protection des données (nLPD). Toute question à ce sujet s’adresse à contact@magnetic.ch.
 
+> Textes alternatifs des images absentes du deck
+
+- **img.traz** : Couverture de L’Esprit de Genève, de Robert de Traz, aux éditions Bernard Grasset
+
+- **img.croixrouge** : Drapeaux du Comité international de la Croix-Rouge à Genève
+
+- **img.conventions** : Signature des Conventions de Genève
+
+- **img.revue** : Couverture de La Revue de Genève, juillet 1927
+
 ## English
 
-> fr.propositions.js "role"
+> Magnetic · PROPOSALS, TO BE APPROVED (English). Version 4, narrative, 10 November 2026. Translations of the French proposals, and of validated French texts with no published English version. Once approved, an entry moves to en.js.
 
-- **role** : Magnetic works alongside initiatives led by others, when they seek to act beyond their usual audience. The association works with the people behind them on the form of the project, then passes on the method so that it can be taken up elsewhere.
+- **accueil.intro** : For centuries, ideas born in Geneva have gone out to change the world. This force was given a name: the Esprit de Genève. Magnetic was founded to put it at the service of creation.
 
-> fr.propositions.js "origine.lancement" (September 2026 deck, p.17)
+- **tour.bandeau.appel** : A tower calls you. Pick up, and make a wish.
 
-- **origine.lancement** : The idea was presented to Laurent Finck, of Lumens 8, who immediately wanted to join the initiative and offered his creative resources for the projects to come. Magnetic was under way. A month later, François Moncarey, of Geneva Lux, took up the idea in turn and offered us the association’s first project: the Tour des Possibles.
+- **moment.1** : A city that overflows
 
-> fr.propositions.js, method
+- **moment.2** : Three figures
 
-- **methode.chapeau** : Each project is carried out with the people who lead it, from one phase to the next.
+- **moment.3** : What the spirit gave the world
 
-- **phase1.texte** : Find the initiatives that are drawn to the approach, then work with the people behind them on what the project seeks to produce beyond its form and its immediate audience.
+- **moment.4** : The hidden part
 
-- **phase1.sortie** : A statement of intent, the question the project asks, its scope, its audiences and its partners.
+- **moment.5** : The thread
 
-- **phase2.texte** : Bring together around the project the disciplines and people identified, then apply the manifesto: design and test the device, write the protocols, set the conditions of public consent and prepare the documentation.
+- **moment.6** : The revelation
 
-- **phase2.sortie** : A tested device and the protocols that go with it.
+- **figures.encart** : Their city did not always understand them. In 1762, Geneva had Rousseau’s books burned in front of the Town Hall. Dunant, ruined, left the committee he had brought into being. The Esprit de Genève has often moved faster than the city itself, and it took time for the city to recognise it.
 
-- **phase3.texte** : Process and deposit what the project has gathered, publish its protocols and documentation, present the results in public and give them back to the people who contributed.
+- **cachee.intro** : The Esprit de Genève is usually told through its treaties and institutions. Yet it has another, quieter history, written in creation. Songs, books, images and gestures were born here, and they travelled the world without anyone linking them together.
 
-- **phase3.sortie** : A review stating what works and what would change for a new edition elsewhere.
+- **cachee.1.date** : 1560
 
-> Festival sheet R6, R7 (French original validated)
+- **cachee.1.titre** : A Bible for England
+
+- **cachee.1.texte** : Fleeing persecution under Mary Tudor, English Protestants found refuge in Geneva. There they translated the Bible into their own language and printed it in 1560, with notes in the margins to help everyone read it. For decades, this Geneva Bible would be the most influential among English Protestants. It was not printed in England until 1575.
+
+- **cachee.1.source** : Cambridge University Library; University of Glasgow
+
+- **cachee.2.date** : 1562
+
+- **cachee.2.titre** : A song for everyone
+
+- **cachee.2.texte** : In 1562, Geneva published the hundred and fifty psalms set in French verse by Clément Marot and Théodore de Bèze, to melodies written to be sung by a whole congregation, in unison. By the beginning of the year, more than twenty-seven thousand copies had already been printed. The Genevan Psalter went on to be sung across Protestant Europe, and some of its melodies can still be heard today.
+
+- **cachee.2.source** : Bibliothèque nationale de France; studies on the diffusion of the Psalter
+
+- **cachee.3.date** : 1833
+
+- **cachee.3.titre** : Stories in pictures
+
+- **cachee.3.texte** : Rodolphe Töpffer ran a boarding school for young men in Geneva. To amuse his pupils, he drew stories as sequences of captioned pictures. In 1833 he published a first album, the Histoire de M. Jabot. In 1845 he wrote its theory. Many see in these albums one of the first forms of the comic strip.
+
+- **cachee.3.source** : Encyclopædia Universalis; University of Liège
+
+- **cachee.4.date** : 1915
+
+- **cachee.4.titre** : The listening body
+
+- **cachee.4.texte** : A professor at the Geneva Conservatory, Émile Jaques-Dalcroze invented a method for learning music through movement: eurhythmics. With the Genevan stage designer Adolphe Appia, he turned Hellerau, near Dresden, into a laboratory where the modern stage was reinvented. The war brought him back to Geneva, where he founded his institute in 1915. His method is taught today in some forty institutions around the world.
+
+- **cachee.4.source** : Deutsche Biographie; Historical Dictionary of Switzerland; City of Geneva
+
+- **cachee.5.date** : 1916
+
+- **cachee.5.titre** : A book written by students
+
+- **cachee.5.texte** : Ferdinand de Saussure taught linguistics in Geneva and died in 1913 without publishing his course. Two former students, Charles Bally and Albert Sechehaye, gathered the students’ notes and published the Course in General Linguistics in 1916. This book, never written by its author, became the founding text of structural linguistics.
+
+- **cachee.5.source** : Robert Godel, Les sources manuscrites du Cours, 1957
+
+- **cachee.6.date** : 1993
+
+- **cachee.6.titre** : A network given to the world
+
+- **cachee.6.texte** : In March 1989, at CERN, on the edge of Geneva, Tim Berners-Lee proposed a system for sharing information between researchers. On 30 April 1993, CERN placed the World Wide Web software in the public domain. From then on, anyone could use it freely.
+
+- **cachee.6.source** : CERN
+
+- **fil.1** : A song that a whole congregation can learn, a Bible that everyone can read, a way of telling stories in pictures, a method for music and the stage, a course passed on by students, a network given to all: these forms were all born here. Each time, others learned them, then carried them elsewhere.
+
+- **fil.2** : For centuries, Geneva has given the world forms that others can make their own.
+
+- **histoire.decouverte** : It was while designing Together that we came across the Esprit de Genève. Looking for a way to make multilateralism understood by a wide audience, we found Robert de Traz’s essay and its three figures. We recognised in it what we were doing: starting from Geneva to speak to the world.
+
+- **histoire.premier** : The idea found its first allies. Laurent Finck, of LUMENS 8, joined the initiative and placed his creative resources at the service of future projects. Then we told the story of the Esprit de Genève to François Moncarey, of the Geneva Lux festival. He was carrying the idea of a wishing tower. Together we turned it into La Tour des Possibles, the association’s first project, in January 2027.
+
+- **manifeste.intro** : The Esprit de Genève is passed on through gestures. We have kept six, which every Magnetic project commits to uphold.
+
+- **p1.precedent** : In 1886, Geneva created a hallmark guaranteeing the origin and quality of its watches.
+
+- **p2.precedent** : In Hellerau, then in Geneva, a musician and a stage designer reinvented the modern stage together.
+
+- **p3.precedent** : In 1562, a book of songs was written to be sung by a whole congregation.
+
+- **p4.precedent** : In 1872, in Geneva’s Town Hall, the United States and the United Kingdom settled their dispute by arbitration.
+
+- **p5.precedent** : In 1560, a Bible printed in Geneva became the most influential among English Protestants.
+
+- **p6.precedent** : In 1993, CERN placed the Web in the public domain.
+
+- **methode.chapeau** : Magnetic works alongside initiatives led by others, when they want to act beyond their usual audience. We work with the people behind them on the form of the project, then pass on the method so that it can be taken up elsewhere.
+
+- **phase1.texte** : We identify the initiatives that recognise themselves in the approach, then work with the people behind them on what the project can produce beyond its form and its immediate audience.
+
+- **phase2.texte** : We bring together around the project the disciplines and the people who will make it exist, and we apply the manifesto: designing and testing the device, then writing down its rules and documentation.
+
+- **phase3.texte** : We make public what the project has produced and how to do it again, so that others can take it up, elsewhere and later.
 
 - **tour.chapeau** : “Linking humanity’s wishes in a shared constellation”
 
@@ -142,21 +312,9 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **tour.fait.cadre** : Geneva Lux festival
 
-- **tour.fait.editions** : 2027 · 2028 · 2029
+- **tour.esprit** : La Tour des Possibles belongs to the tradition of the Esprit de Genève. It starts from a precise place to aim wider, and what it carries is a method: letting individual wishes connect with those of others, without ceasing to be individual. After Geneva, other cities will be able to host their own tower and add their wishes to the same constellation.
 
-- **tour.partenaire.1.role** : architecture
-
-- **tour.partenaire.2.role** : interaction
-
-- **tour.partenaire.3.role** : electronics
-
-- **tour.partenaire.4.role** : digital design
-
-> fr.propositions.js "tour.role"
-
-- **tour.role** : The contract between La Tour des Possibles and the City of Geneva, for the 2027 to 2029 editions, is signed by Magnetic. The work itself is carried by many people, among them the teams of the studios brought together for it.
-
-- **avenir.intro** : Other projects are being prepared with the association.
+- **avenir.intro** : Other projects are being prepared, with new partners.
 
 - **avenir.1.nom** : AI for Good
 
@@ -164,9 +322,7 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **avenir.2.nom** : La Tour en Commun
 
-- **avenir.3.nom** : GIFF
-
-> Festival sheet R8
+- **avenir.3.nom** : With the GIFF
 
 - **asso.bio** : Magnetic is an association whose purpose is to creatively reactivate the Esprit de Genève, making creation a tool for rethinking the common. For its first project it brings together Studio Chaos (architecture), Structurals (interaction), Werkstadt (electronics) and Hint3rland (digital design).
 
@@ -174,21 +330,9 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **asso.fait.constitution** : 2 February 2026
 
-- **asso.fait.rc** : Registered on 26 August 2026, published in the SOGC on 31 August 2026
+- **rejoindre.appel** : The Esprit de Genève has always needed people to carry it. If you lead a project that wants to act beyond its audience, or if you would like to support the association or become a member, write to us.
 
 - **personne.5.org** : Project lead
-
-- **rejoindre.1** : Magnetic is open to people and organisations who recognise themselves in its approach. A membership request is sent to the association’s board, by post or by email; the general assembly then decides on admission.
-
-- **rejoindre.2** : Anyone leading a project who would like to work with the association can write to it directly.
-
-- **img.traz** : Cover of L’Esprit de Genève by Robert de Traz, published by Bernard Grasset
-
-- **img.croixrouge** : Flags of the International Committee of the Red Cross in Geneva
-
-- **img.conventions** : Signing of the Geneva Conventions
-
-- **img.revue** : Cover of La Revue de Genève, July 1927
 
 - **ml.titre** : Legal notice
 
@@ -220,29 +364,31 @@ Pour valider un texte, déplacer sa ligne vers `fr.js` (ou `en.js`). Pour le cor
 
 - **conf.4** : This site falls under the Swiss Federal Act on Data Protection (FADP). Any question on this subject can be sent to contact@magnetic.ch.
 
+- **img.traz** : Cover of L’Esprit de Genève by Robert de Traz, published by Bernard Grasset
+
+- **img.croixrouge** : Flags of the International Committee of the Red Cross in Geneva
+
+- **img.conventions** : Signing of the Geneva Conventions
+
+- **img.revue** : Cover of La Revue de Genève, July 1927
+
 ## À fournir
 
-- fr  avenir.1.desc : description du projet AI for Good, rôle de Magnetic
-- en  avenir.1.desc : description du projet AI for Good, rôle de Magnetic
-- fr  avenir.2.cadre : cadre et date
-- en  avenir.2.cadre : cadre et date
-- fr  avenir.2.desc : description de La Tour en Commun
-- en  avenir.2.desc : description de La Tour en Commun
-- fr  avenir.3.cadre : cadre et date
-- en  avenir.3.cadre : cadre et date
-- fr  avenir.3.desc : description du projet avec le GIFF
-- en  avenir.3.desc : description du projet avec le GIFF
+- fr  ml.credits : crédits photographiques des images
+- en  ml.credits : crédits photographiques des images
 - fr  personne.1.role : fonction
 - en  personne.1.role : fonction
 - fr  personne.2.role : fonction
 - en  personne.2.role : fonction
 - fr  personne.3.role : fonction
 - en  personne.3.role : fonction
-- fr  personne.4.role : fonction, entrée au comité à confirmer
-- en  personne.4.role : fonction, entrée au comité à confirmer
-- fr  soutiens.liste : la liste des soutiens à publier, avec l’accord de chacun
-- en  soutiens.liste : la liste des soutiens à publier, avec l’accord de chacun
-- fr  soutenir.modalites : les modalités d’un soutien financier (compte bancaire, reconnaissance d’utilité publique)
-- en  soutenir.modalites : les modalités d’un soutien financier (compte bancaire, reconnaissance d’utilité publique)
-- fr  ml.credits : crédits photographiques des images (Downtown Studio, Together, portraits, archives)
-- en  ml.credits : crédits photographiques des images (Downtown Studio, Together, portraits, archives)
+- fr  personne.4.role : fonction au comité
+- en  personne.4.role : fonction au comité
+- fr  soutiens.liste : la liste des soutiens à publier
+- en  soutiens.liste : la liste des soutiens à publier
+- fr  avenir.1.desc : une phrase sur le projet AI for Good
+- en  avenir.1.desc : une phrase sur le projet AI for Good
+- fr  avenir.2.desc : une phrase sur La Tour en Commun
+- en  avenir.2.desc : une phrase sur La Tour en Commun
+- fr  avenir.3.desc : une phrase sur le projet avec le GIFF
+- en  avenir.3.desc : une phrase sur le projet avec le GIFF

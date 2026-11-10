@@ -1,23 +1,64 @@
-/* Magnetic · PROPOSALS, TO BE APPROVED (English).
-   Translations of French texts that have no published English version yet, and of the French proposals.
-   The French source of each entry is named in a comment. Once approved, an entry moves to en.js. */
+/* Magnetic · PROPOSALS, TO BE APPROVED (English). Version 4, narrative, 10 November 2026.
+   Translations of the French proposals, and of validated French texts with no published English version.
+   Once approved, an entry moves to en.js. */
 window.MAG = window.MAG || {};
 MAG.en_prop = {
-  // fr.propositions.js "role"
-  "role": "Magnetic works alongside initiatives led by others, when they seek to act beyond their usual audience. The association works with the people behind them on the form of the project, then passes on the method so that it can be taken up elsewhere.",
-  // fr.propositions.js "origine.lancement" (September 2026 deck, p.17)
-  "origine.lancement": "The idea was presented to Laurent Finck, of Lumens 8, who immediately wanted to join the initiative and offered his creative resources for the projects to come. Magnetic was under way.<br>A month later, François Moncarey, of Geneva Lux, took up the idea in turn and offered us the association’s first project: the Tour des Possibles.",
+  "accueil.intro": "For centuries, ideas born in Geneva have gone out to change the world. This force was given a name: the Esprit de Genève. Magnetic was founded to put it at the service of creation.",
+  "tour.bandeau.appel": "A tower calls you. Pick up, and make a wish.",
 
-  // fr.propositions.js, method
-  "methode.chapeau": "Each project is carried out with the people who lead it, from one phase to the next.",
-  "phase1.texte": "Find the initiatives that are drawn to the approach, then work with the people behind them on what the project seeks to produce beyond its form and its immediate audience.",
-  "phase1.sortie": "A statement of intent, the question the project asks, its scope, its audiences and its partners.",
-  "phase2.texte": "Bring together around the project the disciplines and people identified, then apply the manifesto: design and test the device, write the protocols, set the conditions of public consent and prepare the documentation.",
-  "phase2.sortie": "A tested device and the protocols that go with it.",
-  "phase3.texte": "Process and deposit what the project has gathered, publish its protocols and documentation, present the results in public and give them back to the people who contributed.",
-  "phase3.sortie": "A review stating what works and what would change for a new edition elsewhere.",
+  "moment.1": "A city that overflows",
+  "moment.2": "Three figures",
+  "moment.3": "What the spirit gave the world",
+  "moment.4": "The hidden part",
+  "moment.5": "The thread",
+  "moment.6": "The revelation",
 
-  // Festival sheet R6, R7 (French original validated)
+  "figures.encart": "Their city did not always understand them. In 1762, Geneva had Rousseau’s books burned in front of the Town Hall. Dunant, ruined, left the committee he had brought into being. The Esprit de Genève has often moved faster than the city itself, and it took time for the city to recognise it.",
+
+  "cachee.intro": "The Esprit de Genève is usually told through its treaties and institutions. Yet it has another, quieter history, written in creation. Songs, books, images and gestures were born here, and they travelled the world without anyone linking them together.",
+  "cachee.1.date": "1560",
+  "cachee.1.titre": "A Bible for England",
+  "cachee.1.texte": "Fleeing persecution under Mary Tudor, English Protestants found refuge in Geneva. There they translated the Bible into their own language and printed it in 1560, with notes in the margins to help everyone read it. For decades, this Geneva Bible would be the most influential among English Protestants. It was not printed in England until 1575.",
+  "cachee.1.source": "Cambridge University Library; University of Glasgow",
+  "cachee.2.date": "1562",
+  "cachee.2.titre": "A song for everyone",
+  "cachee.2.texte": "In 1562, Geneva published the hundred and fifty psalms set in French verse by Clément Marot and Théodore de Bèze, to melodies written to be sung by a whole congregation, in unison. By the beginning of the year, more than twenty-seven thousand copies had already been printed. The Genevan Psalter went on to be sung across Protestant Europe, and some of its melodies can still be heard today.",
+  "cachee.2.source": "Bibliothèque nationale de France; studies on the diffusion of the Psalter",
+  "cachee.3.date": "1833",
+  "cachee.3.titre": "Stories in pictures",
+  "cachee.3.texte": "Rodolphe Töpffer ran a boarding school for young men in Geneva. To amuse his pupils, he drew stories as sequences of captioned pictures. In 1833 he published a first album, the <i>Histoire de M. Jabot</i>. In 1845 he wrote its theory. Many see in these albums one of the first forms of the comic strip.",
+  "cachee.3.source": "Encyclopædia Universalis; University of Liège",
+  "cachee.4.date": "1915",
+  "cachee.4.titre": "The listening body",
+  "cachee.4.texte": "A professor at the Geneva Conservatory, Émile Jaques-Dalcroze invented a method for learning music through movement: eurhythmics. With the Genevan stage designer Adolphe Appia, he turned Hellerau, near Dresden, into a laboratory where the modern stage was reinvented. The war brought him back to Geneva, where he founded his institute in 1915. His method is taught today in some forty institutions around the world.",
+  "cachee.4.source": "Deutsche Biographie; Historical Dictionary of Switzerland; City of Geneva",
+  "cachee.5.date": "1916",
+  "cachee.5.titre": "A book written by students",
+  "cachee.5.texte": "Ferdinand de Saussure taught linguistics in Geneva and died in 1913 without publishing his course. Two former students, Charles Bally and Albert Sechehaye, gathered the students’ notes and published the <i>Course in General Linguistics</i> in 1916. This book, never written by its author, became the founding text of structural linguistics.",
+  "cachee.5.source": "Robert Godel, Les sources manuscrites du Cours, 1957",
+  "cachee.6.date": "1993",
+  "cachee.6.titre": "A network given to the world",
+  "cachee.6.texte": "In March 1989, at CERN, on the edge of Geneva, Tim Berners-Lee proposed a system for sharing information between researchers. On 30 April 1993, CERN placed the World Wide Web software in the public domain. From then on, anyone could use it freely.",
+  "cachee.6.source": "CERN",
+  "fil.1": "A song that a whole congregation can learn, a Bible that everyone can read, a way of telling stories in pictures, a method for music and the stage, a course passed on by students, a network given to all: these forms were all born here. Each time, others learned them, then carried them elsewhere.",
+  "fil.2": "For centuries, Geneva has given the world forms that others can make their own.",
+
+  "histoire.decouverte": "It was while designing Together that we came across the Esprit de Genève. Looking for a way to make multilateralism understood by a wide audience, we found Robert de Traz’s essay and its three figures. We recognised in it what we were doing: starting from Geneva to speak to the world.",
+  "histoire.premier": "The idea found its first allies. Laurent Finck, of LUMENS 8, joined the initiative and placed his creative resources at the service of future projects. Then we told the story of the Esprit de Genève to François Moncarey, of the Geneva Lux festival. He was carrying the idea of a wishing tower. Together we turned it into La Tour des Possibles, the association’s first project, in January 2027.",
+
+  "manifeste.intro": "The Esprit de Genève is passed on through gestures. We have kept six, which every Magnetic project commits to uphold.",
+  "p1.precedent": "In 1886, Geneva created a hallmark guaranteeing the origin and quality of its watches.",
+  "p2.precedent": "In Hellerau, then in Geneva, a musician and a stage designer reinvented the modern stage together.",
+  "p3.precedent": "In 1562, a book of songs was written to be sung by a whole congregation.",
+  "p4.precedent": "In 1872, in Geneva’s Town Hall, the United States and the United Kingdom settled their dispute by arbitration.",
+  "p5.precedent": "In 1560, a Bible printed in Geneva became the most influential among English Protestants.",
+  "p6.precedent": "In 1993, CERN placed the Web in the public domain.",
+
+  "methode.chapeau": "Magnetic works alongside initiatives led by others, when they want to act beyond their usual audience. We work with the people behind them on the form of the project, then pass on the method so that it can be taken up elsewhere.",
+  "phase1.texte": "We identify the initiatives that recognise themselves in the approach, then work with the people behind them on what the project can produce beyond its form and its immediate audience.",
+  "phase2.texte": "We bring together around the project the disciplines and the people who will make it exist, and we apply the manifesto: designing and testing the device, then writing down its rules and documentation.",
+  "phase3.texte": "We make public what the project has produced and how to do it again, so that others can take it up, elsewhere and later.",
+
   "tour.chapeau": "“Linking humanity’s wishes in a shared constellation”",
   "tour.desc.1": "Making a wish is one of humanity’s oldest gestures. In every culture and every age, people have addressed their desires to what lies beyond them, and often to the sky.",
   "tour.desc.2": "La Tour des Possibles invites each visitor to share their dearest wish, to turn it into light and to see it join the wishes of others in a vast online digital map.",
@@ -26,34 +67,18 @@ MAG.en_prop = {
   "tour.fait.lieu": "Jardin Anglais, Geneva",
   "tour.fait.dates": "15 to 31 January 2027",
   "tour.fait.cadre": "Geneva Lux festival",
-  "tour.fait.editions": "2027 · 2028 · 2029",
-  "tour.partenaire.1.role": "architecture",
-  "tour.partenaire.2.role": "interaction",
-  "tour.partenaire.3.role": "electronics",
-  "tour.partenaire.4.role": "digital design",
-  // fr.propositions.js "tour.role"
-  "tour.role": "The contract between La Tour des Possibles and the City of Geneva, for the 2027 to 2029 editions, is signed by Magnetic. The work itself is carried by many people, among them the teams of the studios brought together for it.",
-
-  "avenir.intro": "Other projects are being prepared with the association.",
+  "tour.esprit": "La Tour des Possibles belongs to the tradition of the Esprit de Genève. It starts from a precise place to aim wider, and what it carries is a method: letting individual wishes connect with those of others, without ceasing to be individual. After Geneva, other cities will be able to host their own tower and add their wishes to the same constellation.",
+  "avenir.intro": "Other projects are being prepared, with new partners.",
   "avenir.1.nom": "AI for Good",
   "avenir.1.cadre": "With the ITU, 2027",
   "avenir.2.nom": "La Tour en Commun",
-  "avenir.3.nom": "GIFF",
+  "avenir.3.nom": "With the GIFF",
 
-  // Festival sheet R8
   "asso.bio": "Magnetic is an association whose purpose is to creatively reactivate the Esprit de Genève, making creation a tool for rethinking the common. For its first project it brings together Studio Chaos (architecture), Structurals (interaction), Werkstadt (electronics) and Hint3rland (digital design).",
   "asso.fait.forme": "Association under articles 60 and following of the Swiss Civil Code",
   "asso.fait.constitution": "2 February 2026",
-  "asso.fait.rc": "Registered on 26 August 2026, published in the SOGC on 31 August 2026",
+  "rejoindre.appel": "The Esprit de Genève has always needed people to carry it. If you lead a project that wants to act beyond its audience, or if you would like to support the association or become a member, write to us.",
   "personne.5.org": "Project lead",
-
-  "rejoindre.1": "Magnetic is open to people and organisations who recognise themselves in its approach. A membership request is sent to the association’s board, by post or by email; the general assembly then decides on admission.",
-  "rejoindre.2": "Anyone leading a project who would like to work with the association can write to it directly.",
-
-  "img.traz": "Cover of L’Esprit de Genève by Robert de Traz, published by Bernard Grasset",
-  "img.croixrouge": "Flags of the International Committee of the Red Cross in Geneva",
-  "img.conventions": "Signing of the Geneva Conventions",
-  "img.revue": "Cover of La Revue de Genève, July 1927",
 
   "ml.titre": "Legal notice",
   "ml.editeur.titre": "Publisher",
@@ -65,10 +90,14 @@ MAG.en_prop = {
   "ml.credits.titre": "Credits",
   "ml.signalement.titre": "Reporting",
   "ml.signalement": "An error, an infringed right or content to be removed can be reported to contact@magnetic.ch. The association will reply as soon as possible.",
-
   "conf.titre": "Privacy",
   "conf.1": "This site sets no cookies. It uses no audience measurement and no advertising tracker, and loads no third-party resource: fonts and images are served by the site itself.",
   "conf.2": "No form collects any data. A message sent to contact@magnetic.ch is used only to reply to it and is passed on to no one.",
   "conf.3": "Like any server, the host may keep technical logs, including visitors’ IP addresses, to keep the service secure.",
-  "conf.4": "This site falls under the Swiss Federal Act on Data Protection (FADP). Any question on this subject can be sent to contact@magnetic.ch."
+  "conf.4": "This site falls under the Swiss Federal Act on Data Protection (FADP). Any question on this subject can be sent to contact@magnetic.ch.",
+
+  "img.traz": "Cover of L’Esprit de Genève by Robert de Traz, published by Bernard Grasset",
+  "img.croixrouge": "Flags of the International Committee of the Red Cross in Geneva",
+  "img.conventions": "Signing of the Geneva Conventions",
+  "img.revue": "Cover of La Revue de Genève, July 1927"
 };

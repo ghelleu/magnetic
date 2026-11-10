@@ -53,10 +53,11 @@
 
   /* ---- barre : fond dès qu'on quitte l'ouverture, lien actif ---- */
   var bar = document.querySelector(".bar");
-  var links = [].slice.call(document.querySelectorAll(".bar-nav a"));
+  // les liens de la barre mènent à des pages ; seuls d'éventuels liens d'ancre suivent le défilement
+  var links = [].slice.call(document.querySelectorAll('.bar-nav a[href^="#"]'));
   var sections = links.map(function (a) { return document.querySelector(a.getAttribute("href")); });
   function onScroll() {
-    if (bar) bar.classList.toggle("solid", window.scrollY > window.innerHeight * 0.6);
+    if (bar && document.body.getAttribute("data-id") === "accueil") bar.classList.toggle("solid", window.scrollY > window.innerHeight * 0.6);
     var mid = window.innerHeight * 0.4, active = -1;
     sections.forEach(function (s, i) { if (s && s.getBoundingClientRect().top < mid) active = i; });
     links.forEach(function (a, i) { a.classList.toggle("on", i === active); });

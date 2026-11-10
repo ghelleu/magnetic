@@ -1,6 +1,6 @@
 # Magnetic · site de l'association
 
-Site statique, sans dépendance ni étape de construction. Version de travail publiée sur **https://guillaumehelleu.com/magnetic/** ; destination finale : magnetic.ch.
+Site statique, sans dépendance ni étape de construction. Version narrative (v4, 10 novembre 2026, d'après `MAGNETIC_site_recit_v4`) publiée sur **https://guillaumehelleu.com/magnetic/** ; destination finale : magnetic.ch.
 
 ## Ce qui est publié, ce qui ne l'est pas
 
@@ -9,7 +9,8 @@ Le dossier de passation (`MAGNETIC_SITE_HANDOFF`) ne doit jamais entrer dans ce 
 
 ```
 public/
-  index.html                 la page unique (structure seulement, aucun texte)
+  index.html                 l'accueil ; une page par dossier : esprit-de-geneve/, notre-histoire/,
+                             manifeste/, methode/, projets/, nous-rejoindre/ (structure seulement, aucun texte)
   mentions-legales/          page de service
   confidentialite/           page de service
   content/
@@ -26,6 +27,7 @@ public/
     fonts/, img/
 propositions/PROPOSITIONS.md liste générée des propositions et des emplacements à fournir
 tools/verifier.mjs           contrôle à la lettre des textes validés
+tools/pages.py               régénère la structure des pages (à relancer seulement si la structure change)
 ```
 
 ## Modifier un texte
@@ -58,7 +60,7 @@ cd public && python3 -m http.server 8080
 
 ## Publier
 
-Un `git push` sur `main` publie `public/` par GitHub Actions, en une minute environ. Après chaque modification de CSS ou de JS, incrémenter le `?v=` des liens dans les trois pages HTML pour contourner le cache.
+Un `git push` sur `main` publie `public/` par GitHub Actions, en une minute environ. Après chaque modification de CSS ou de JS, incrémenter `VERSION` dans `tools/pages.py` puis relancer `python3 tools/pages.py`, pour contourner le cache.
 
 ## magnetic.ch, le jour de la bascule
 
